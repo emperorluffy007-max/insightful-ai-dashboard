@@ -230,7 +230,7 @@ function DashboardPage() {
                   </Pie>
                   <Tooltip
                     contentStyle={tooltipStyle}
-                    formatter={(v: number) => [`${v}%`, ""]}
+                    formatter={(v) => [`${v}%`, ""]}
                   />
                 </PieChart>
               </ResponsiveContainer>
